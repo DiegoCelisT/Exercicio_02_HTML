@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio 2 - HTML</title>
+    <title>Exercicio 02 - HTML</title>
 </head>
 <body>
     <header>
@@ -11,39 +11,40 @@
             <h1>Minhas Viagens</h1>
             <nav>
                 <ul>
-                    <li><a href="Página Principal">Home</a></li>
-                    <li><a href="Ultimos Viagens">Viagens recentes</a></li>
-                    <li><a href="Coisas Curiosas">Curiosidades</a></li>
-                    <li><a href="Mais sobre mim">Coheça mais sobre mim</a></li>
+                    <li><a href="#Página Principal">Home</a></li>
+                    <li><a href="#Ultimas Viagens">Viagens recentes</a></li>
+                    <li><a href="#Coisas Curiosas">Curiosidades</a></li>
+                    <li><a href="#Mais sobre mim">A minha historia e meu trabalho</a></li>
                 </ul> 
             </nav>
         </div>
         <img src="Minhas Viagens - Foto Portada.jpg" alt="foto minha em uma rua de Ecuador" width="700">
+        <p></p> <!--Esse é só um espaçamento estético enquanto eu aprendo CSS :P-->
     </header>
     <main>
-        <div>
+        <div id="Ultimas Viagens">
             <article>
-            <img src="Perú.jpeg" alt="Foto de Machu Picchu" width="200">
-            <h2>Perú</h2>
-            <p>Visitando la ciudad de Machu Picchu, uma trilha maravilhosa e uma vista inacreditável</p>
-        </article>
-        <article>
-            <img src="Moscú.jpeg" alt="Foto de la catedral de São Basilio" width="200">
-            <h2>Moscú</h2>
-            <p>Una arquitectura mágica e um clima inesperado</p>
-        </article>
-        <article>
-            <img src="Canadá.jpeg" alt="Foto de lagoa em Ottawa" width="200">
-            <h2>Canadá</h2>
-            <p>Uma viagem com surpresas acompanhado de Magdalena e Martina, as minhas primas do norte</p>
-        </article>
-        <article>
-            <img src="Turquia.jpeg" alt="Foto da Ponte Bel'kamo" width="200">
-            <h2>Turquia</h2>
-            <p>Encontro com a natureza em um povo com uma comunidade muito alegre e uma comida muito estranha</p>
-        </article>
+                <img src="Perú.jpeg" alt="Foto de Machu Picchu" width="200">
+                <h2>Perú</h2>
+                <p>Visitei a cidade de Machu Picchu, uma trilha maravilhosa e uma vista inacreditável...</p>
+            </article>
+            <article>
+                <img src="Moscú.jpeg" alt="Foto de la catedral de São Basilio" width="200">
+                <h2>Moscú</h2>
+                <p>Uma arquitetura mágica e um clima inesperado...</p>
+            </article>
+            <article>
+                <img src="Canadá.jpeg" alt="Foto de lagoa em Ottawa" width="200">
+                <h2>Canadá</h2>
+                <p>Uma viagem com surpresas acompanhado de Magdalena e Martina, as minhas primas do norte...</p>
+            </article>
+            <article>
+                <img src="Turquia.jpeg" alt="Foto da Ponte Bel'kamo" width="200">
+                <h2>Turquia</h2>
+                <p>Encontro com a natureza em um povo com uma comunidade muito alegre e uma comida muito estranha...</p>
+            </article>
         </div>
-        <aside>
+        <aside id="Coisas Curiosas">
             <article>
                 <h2>As pessoas mais legais que conheci</h2>
                 <ul>
@@ -73,7 +74,7 @@
                 <ul>
                     <li><figure>
                         <img src="suri-plato.jpg" alt="prato peruano com vermes" width="200">
-                        <figcaption>um verme da Amazônia peruana que muitos acham um deleite. Você tentaria?</figcaption>
+                        <figcaption>O Sui é um verme da Amazônia peruana que muitos acham um deleite. Você tentaria?</figcaption>
                     </figure></li>
                     <li><figure>
                         <img src="TAvuk-gogsu.jpg" alt="O Tavuk Gögsü da Turquia" width="200">
@@ -87,14 +88,14 @@
             </article>
             <article>
                 <h2>A minha experiência mais divertida</h2>
-                <img src="kalinka-na-russia.jpg" alt="dança russa tradicional da que fiz parte" width="300">
+                <img src="kalinka-na-russia.jpg" alt="dança russa tradicional chamada Kalinka" width="300">
                 <p>
                     Na Russia dancei Kalinka, que significa pequena árvore de bolas de neve e as letras das músicas são um tributo ao amor, à vida e à natureza, assim como as danças. A dança é uma mistura do sapateado russo com muitos giros e movimentos rápidos. Os grupos de dançarinos podem ser formados por casais ou apenas por mulheres que seguram um pequeno lenço nas mãos.
                 </p>
             </article>
         </aside>
     </main>
-        <section>
+        <section id="Mais sobre mim">
             <article>
                 <h2>Uma pequena historia de como virei um fotográfo nomade</h2>
                 <p>
@@ -105,25 +106,25 @@
                     Hoje em dia, e há cerca de um ano e meio, eu me sustento de duas formas: vivendo com muito menos e dando um workshop itinerante de Olhar e Composição Fotográfica pelas cidades por onde vou.
                 </p>
             </article>
-            <article>
+            <nav>
                 <h2>Conheça todos meus projetos e cursos</h2>
                 <ul>
-                    <li>Fotografias de lagoas</li>
-                    <li>Sorrisos e pessoas</li>
-                    <li>Como comprar uma boa camera digital</li>
-                    <li>Fotos engraçadas de bichos</li>
-                    <li>Gastronomia</li>
-                    <li>Foco e resolução</li>
-                    <li>Workshop itinerante</li>
+                    <li><a href="Minhas-selfies-com-famosos.html">Selfies com famosos</a></li>
+                    <li><a href="Sorrisos-e-pessoas.html">Sorrisos e pessoas</a></li>
+                    <li><a href="recomendando-cameras.html">Como-comprar uma boa camera digital</a></li>
+                    <li><a href="Meus-bichos.html">Fotos engraçadas de bichos</a></li>
+                    <li><a href="Comendo-pelo-mundo.html">Gastronomia</a></li>
+                    <li><a href="Conselhos-fotograficos-3.html">Foco e resolução</a></li>
+                    <li><a href="O-meu-workshop.html">Workshop itinerante</a></li>
                 </ul>
-            </article>
+            </nav>
         </section>
     <footer>
         <p>
-            Minhas viagens by Luca Toni - Fotográfo nomade
+            <strong>Minhas viagens</strong> by <em>Luca Toni</em> - Fotográfo nomade
         </p>
         <p>
-            O conteúdo deste blog pode ser divulgado com a respectiva referência ao autor do mesmo.
+            <em>O conteúdo deste blog pode ser divulgado com a respectiva referência ao autor do mesmo.</em>
         </p>
     </footer>
 </body>
